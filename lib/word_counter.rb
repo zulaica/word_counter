@@ -1,5 +1,6 @@
 class String
   define_method(:word_counter) do |word_to_count|
+
     total = 0
     words_to_check = split()
 
