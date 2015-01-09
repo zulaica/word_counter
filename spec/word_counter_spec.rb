@@ -23,4 +23,9 @@ describe('String#word_counter') do
     expect(("This that this").word_counter("this")).to(eq(2))
   end
 
+  it("ignores letter case on both strings when comparing words.") do
+    expect(("this").word_counter("This")).to(eq(1))
+    expect(("this that this").word_counter("This")).to(eq(2))
+  end
+
 end
