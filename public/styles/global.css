@@ -143,6 +143,10 @@ h1 {
 }
 
 main {
+  -webkit-flex: 1 100%;
+  -ms-flex: 1;
+  flex: 1 100%;
+
   margin: 1rem auto;
 }
 
