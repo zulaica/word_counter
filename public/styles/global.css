@@ -146,6 +146,10 @@ main {
   margin: 1rem auto;
 }
 
+input {
+  border-bottom: 1px solid #d0dad8;
+}
+
 textarea {
   display: block;
 
@@ -156,3 +160,41 @@ textarea {
 
   border: 1px solid #d0dad8;
 }
+
+button {
+  width: 49%;
+
+  padding: .5rem 1rem;
+
+  color: #888;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  background-repeat: no-repeat;
+  -webkit-transition-duration: .1s;
+  transition-duration: .1s
+}
+  [type="submit"] {
+    background: #d0dad8;
+    background-image: -webkit-linear-gradient(left, #0e745c 0%, #0e745c 50%, transparent 50%, transparent 100%);
+    background-image: linear-gradient(to right, #0e745c 0%, #0e745c 50%, transparent 50%, transparent 100%);
+    background-size: 200% 100%;
+    background-position: 100%;
+  }
+  [type="reset"] {
+    float: right;
+
+    background: #e5cccd;
+    background-image: -webkit-linear-gradient(left, #d7686a 0%, #d7686a 50%, transparent 50%, transparent 100%);
+    background-image: linear-gradient(to right, #d7686a 0%, #d7686a 50%, transparent 50%, transparent 100%);
+    background-size: 200% 100%;
+    background-position: 100%;
+  }
+  button:hover,
+  button:active,
+  button:focus {
+    color: #fff;
+    background-position: 0%;
+  }
