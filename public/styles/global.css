@@ -75,6 +75,7 @@ button, input {
   -moz-appearance: none;
   appearance: none;
   font-family: inherit;
+  font-size: inherit;
 }
 
 
