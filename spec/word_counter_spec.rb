@@ -13,4 +13,9 @@ describe('String#word_counter') do
     expect(("coffee").word_counter("tea")).to(eq(0))
   end
 
+  it("compares two strings and returns the total number of times a given particular word appears in a given string.") do
+    expect(("this this this").word_counter("this")).to(eq(3))
+    expect(("apple orange apple").word_counter("apple")).to(eq(2))
+  end
+
 end
