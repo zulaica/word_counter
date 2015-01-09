@@ -70,7 +70,9 @@ html {
   -moz-osx-font-smoothing: grayscale
 }
 
-button, input {
+button,
+input,
+textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
