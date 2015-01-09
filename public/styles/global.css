@@ -152,7 +152,17 @@ main {
 
 input {
   border-bottom: 1px solid #d0dad8;
+
+  -webkit-transition-duration: .1s;
+  transition-duration: .1s
 }
+  input:hover,
+  input:active,
+  input:focus {
+    border-bottom-color: #0e745c;
+
+    box-shadow: 0 2px 1px -1px #d0dad8;
+  }
 
 textarea {
   display: block;
@@ -177,6 +187,7 @@ button {
   text-transform: uppercase;
 
   background-repeat: no-repeat;
+
   -webkit-transition-duration: .1s;
   transition-duration: .1s
 }
