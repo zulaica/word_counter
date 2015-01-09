@@ -18,4 +18,9 @@ describe('String#word_counter') do
     expect(("apple orange apple").word_counter("apple")).to(eq(2))
   end
 
+  it("ignores letter case when comparing words.") do
+    expect(("This").word_counter("this")).to(eq(1))
+    expect(("This that this").word_counter("this")).to(eq(2))
+  end
+
 end
