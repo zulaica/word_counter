@@ -145,3 +145,14 @@ h1 {
 main {
   margin: 1rem auto;
 }
+
+textarea {
+  display: block;
+
+  width: 100%;
+  min-height: 6rem;
+
+  margin: 1.5rem auto;
+
+  border: 1px solid #d0dad8;
+}
