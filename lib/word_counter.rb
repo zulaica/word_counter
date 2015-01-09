@@ -4,8 +4,10 @@ class String
     total = 0
     words_to_check = split()
 
-    if words_to_check.include? word_to_count
-      total = total.+(1)
+    words_to_check.each() do |current_word|
+      if current_word.include? word_to_count
+        total = total.+(1)
+      end
     end
 
     total
