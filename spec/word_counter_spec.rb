@@ -28,4 +28,8 @@ describe('String#word_counter') do
     expect(("this that this").word_counter("This")).to(eq(2))
   end
 
+  it("does not give a false positive for partial matches.") do
+    expect(("Catty").word_counter("cat")).to(eq(0))
+  end
+
 end
