@@ -4,7 +4,7 @@ Word Counter is a website that returns how frequently a word appears in a given 
 
 ## Requirements
 
-Word Counter's method is programmed in Ruby and uses Sinatra do display the web view.
+Word Counter's method is programmed in Ruby and uses Sinatra do display the web view. You're gonna want to have both of these installed.
 
 ## Credits
 
