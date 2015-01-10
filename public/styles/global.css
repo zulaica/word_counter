@@ -221,3 +221,33 @@ button {
     color: #fff;
     background-position: 0%;
   }
+
+[href="/"] {
+  padding: .5rem 1rem;
+
+  background: #ddd;
+  background-image: -webkit-linear-gradient(left, #888 0%, #888 50%, transparent 50%, transparent 100%);
+  background-image: linear-gradient(to right, #888 0%, #888 50%, transparent 50%, transparent 100%);
+  background-size: 200% 100%;
+  background-position: 100%;
+
+  color: #888;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition-duration: .1s;
+  transition-duration: .1s
+}
+  [href="/"]::before {
+    content: "\261c\0020\0020";
+    font-size: 1.5em;
+    vertical-align: text-bottom;
+  }
+  [href="/"]:hover,
+  [href="/"]:active,
+  [href="/"]:focus {
+    color: #fff;
+    background-position: 0%;
+  }
